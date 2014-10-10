@@ -19,7 +19,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
     UIButton * btn = [UIButton buttonWithType:UIButtonTypeInfoLight];
     btn.frame = CGRectMake(40, 50, 100, 30);
     [self.view addSubview:btn];
