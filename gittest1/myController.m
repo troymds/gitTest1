@@ -26,6 +26,9 @@
     UIButton * btn1 = [UIButton buttonWithType:UIButtonTypeInfoLight];
     btn1.frame = CGRectMake(40, 90, 100, 30);
     
+    
+    UIButton * btn3 = [UIButton buttonWithType:UIButtonTypeInfoLight];
+    btn3.frame = CGRectMake(40, 90, 100, 30);
     [self.view addSubview:btn];
 }
 
