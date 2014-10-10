@@ -19,6 +19,9 @@
 		F3AEB79219E781D500393BB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3AEB77A19E781D500393BB0 /* UIKit.framework */; };
 		F3AEB79A19E781D500393BB0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3AEB79819E781D500393BB0 /* InfoPlist.strings */; };
 		F3AEB79C19E781D500393BB0 /* gittest1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AEB79B19E781D500393BB0 /* gittest1Tests.m */; };
+		F3AEB7A619E781F800393BB0 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3AEB7A519E781F800393BB0 /* main.storyboard */; };
+		F3AEB7A919E7824D00393BB0 /* myController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AEB7A819E7824D00393BB0 /* myController.m */; };
+		F3AEB7B119E785FA00393BB0 /* navc.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AEB7B019E785FA00393BB0 /* navc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 		F3AEB79719E781D500393BB0 /* gittest1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gittest1Tests-Info.plist"; sourceTree = "<group>"; };
 		F3AEB79919E781D500393BB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F3AEB79B19E781D500393BB0 /* gittest1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gittest1Tests.m; sourceTree = "<group>"; };
+		F3AEB7A519E781F800393BB0 /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		F3AEB7A719E7824D00393BB0 /* myController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myController.h; sourceTree = "<group>"; };
+		F3AEB7A819E7824D00393BB0 /* myController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myController.m; sourceTree = "<group>"; };
+		F3AEB7AF19E785FA00393BB0 /* navc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = navc.h; sourceTree = "<group>"; };
+		F3AEB7B019E785FA00393BB0 /* navc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = navc.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +119,11 @@
 				F3AEB78619E781D500393BB0 /* AppDelegate.m */,
 				F3AEB78819E781D500393BB0 /* Images.xcassets */,
 				F3AEB77D19E781D500393BB0 /* Supporting Files */,
+				F3AEB7A519E781F800393BB0 /* main.storyboard */,
+				F3AEB7A719E7824D00393BB0 /* myController.h */,
+				F3AEB7A819E7824D00393BB0 /* myController.m */,
+				F3AEB7AF19E785FA00393BB0 /* navc.h */,
+				F3AEB7B019E785FA00393BB0 /* navc.m */,
 			);
 			path = gittest1;
 			sourceTree = "<group>";
@@ -220,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3AEB78119E781D500393BB0 /* InfoPlist.strings in Resources */,
+				F3AEB7A619E781F800393BB0 /* main.storyboard in Resources */,
 				F3AEB78919E781D500393BB0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,7 +254,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3AEB78719E781D500393BB0 /* AppDelegate.m in Sources */,
+				F3AEB7B119E785FA00393BB0 /* navc.m in Sources */,
 				F3AEB78319E781D500393BB0 /* main.m in Sources */,
+				F3AEB7A919E7824D00393BB0 /* myController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
